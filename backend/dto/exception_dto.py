@@ -1,0 +1,2 @@
+class MathException(Exception):
+    pass

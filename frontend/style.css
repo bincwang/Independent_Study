@@ -1,0 +1,214 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: bisque;
+    background-image: url("123.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color:rgb(225, 0, 255);
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.nav{
+    overflow : hidden;
+    background: rgb(255, 20, 243);
+    color: plum;
+    padding: 10px;
+}
+
+.nav h2{
+    font-size:2rem;
+    float:left;
+}
+
+nav {
+    float:right;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style-type:none;
+    list-style-position: inside;
+}
+
+nav li{
+    font-size : 1.3rem;
+    float:left;
+    margin: 8px;
+}
+
+nav a {
+    color:yellowgreen;
+    text-decoration: none;
+}
+
+.current a::after{
+    content:'​😊​​';
+    font-size: 20px;
+    color: red;
+    background-color:rgb(255, 20, 243);
+    display:-moz-inline-box;
+}
+
+.answer-inputs {
+    margin-top:20px;
+    display: grid;
+    justify-content: center;
+}
+
+.inputs_up {
+    text-shadow: 0px 0px 2px purple;
+    margin: 20px 10px 0px 10px;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    margin-left : auto;
+}
+
+.top {
+    text-shadow: 0px 0px 2px purple;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    font: size 5.2vw;
+    border-radius: 20px;
+    text-align :center;
+    margin: 20px 0px 10px 20px;
+}
+
+.middle {
+    text-shadow: 0px 0px 2px purple;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    font: size 5.2vw;
+    border-radius: 20px;
+    text-align :center;
+    margin: 20px 0px 0px 5px;
+}
+
+.line {
+    text-shadow: 0px 0px 2px purple;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    font: size 5.2vw;
+    border-radius: 20px;
+    text-align :center;
+    margin-bottom: 10px;
+}
+
+.answer-inputs2 {
+    margin-top:20px;
+    display: grid;
+    justify-content: center;
+}
+
+.inputs_down {
+    text-shadow: 0px 0px 2px purple;
+    margin: 0px 10px 0px 0px;
+}
+
+label {
+    font-size: 30px;
+    color:honeydew;
+}
+
+.submission {
+    margin-top:20px;
+    display: grid;
+    justify-content: center;
+}
+
+.submit_button{
+    color:white;
+    text-shadow: 0px 0px 2px purple;
+    margin: 0px 10px 0px 0px;
+}
+
+.score_update{
+    color:white;
+    text-shadow: 0px 0px 2px purple;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    font: size 5.2vw;
+    border-radius: 20px;
+    text-align :center;
+    margin: 20px 0px 0px 5px;
+}
+
+.imgcontainer{
+    display: inline;
+    size: 10px;
+    margin-top: 100px;
+}
+/*
+.equation {
+    text-shadow: 0px 0px 2px purple;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 2px 2px 2px 2px red;
+    font: size 5.2vw;
+    background:pink;
+    border-radius: 20px;
+    text-align :center;
+    margin: 20px 10px 0px 10px; //upper right down left
+}
+
+.equation h1{
+    display: inline;
+    padding: 20px
+}
+
+.answer-options {
+    font-size: 1.5vw;
+    margin-right: 10px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color:violet;
+    box-shadow: 2px 2px 6px 6px rgb(255, 255, 255);
+}
+
+.apple {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.apple1 {
+    grid: block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 0px 23px 3px 4px;
+    text-align: center;
+    float:right;
+    margin-right: 500px;
+    margin-bottom: 500px;
+}
+
+*/

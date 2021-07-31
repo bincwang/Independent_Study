@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/js-cookie/latest/js.cookie.min.js"></script>
+    <Title>New Math Game</Title>
+</head>
+
+<body>
+    <audio id="myAudio">
+        <source src="wrong.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <div class="container">
+            <div class ="nav">
+                <h2><span><i class="fa fa-trophy" aria-hidden="true"></i></span>🤗MATH GAME2.0🤗</h2>
+                <h2 id='username' style="font-family: fantasy;">Username</h2>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Add</a></li>
+                        <li><a href="subtract.html">Subtract</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <h1 id="logout_button">Logout</h1>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="answer-inputs">
+        <div class="inputs_up" style="background-color:orange;">
+            <form>
+                <input type="text" maxlength="2" size="2" id="third_carry">
+                <input type="text" maxlength="2" size="2" id="second_carry">
+                <input type="text" maxlength="2" size="2" id="first_carry">
+              </form> 
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="top">
+            <h1 id="num1" style="color: coral;">60</h1>
+        </div>
+        <div class="middle">
+            <h1 id="operator" style="color:cyan">-</h1>
+            <h1 id="num2" style="color:brown;">50</h1>
+        </div>
+        <div class="line">
+            <h1 h1 id="line1" style="color:white;">_________</h1>
+        </div>
+            
+ 
+    </div>
+
+    <div class="answer-inputs2">
+        <div class="inputs_down">
+            <h1 style="color:rgb(158, 226, 149)"></h1>
+            <form>
+                <label for="equal_sign">=</label>
+                <input style="margin-left: 5px;" type="text" maxlength="1" size="2" id="third_answer">
+                <input type="text" maxlength="1" size="2" id="second_answer">
+                <input type="text" maxlength="1" size="2" id="first_answer">
+            </form> 
+        </div>
+    </div>
+    <div class="submission">
+        <div class="submit_button">
+            <h1 id="submit1">Submit</h1> 
+        </div>  
+        
+    </div>
+    <div class="score">
+        <div class="score_update">
+            <h1 id="score1">Score:</h1>
+            <h1 id="score_update">0</h1>
+        </div>  
+    </div>
+  <script src="js/api.js"></script>
+  <script src="js/submit2.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
